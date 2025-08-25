@@ -1,0 +1,36 @@
+{
+  "name": "goal-card-templates",
+  "version": "1.0.0",
+  "description": "50 Goal & Shareable Card Templates - Create beautiful, customizable card templates for social media, achievements, and branding",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000 || python3 -m http.server 3000 || npx serve .",
+    "build": "echo 'Static site - no build step required'",
+    "start": "npx serve .",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "templates",
+    "cards",
+    "social-media",
+    "achievements",
+    "goals",
+    "branding",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/goal-card-templates.git"
+  },
+  "homepage": "https://your-project.vercel.app"
+}
